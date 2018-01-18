@@ -20,9 +20,6 @@ subject to the following restrictions:
 #include "Bullet3Common/b3StackAlloc.h"
 #include "Bullet3Common/b3HashMap.h"
 
-#if !defined( __CELLOS_LV2__) && !defined(__MWERKS__)
-#include <memory.h>
-#endif
 #include <string.h>
 
 
